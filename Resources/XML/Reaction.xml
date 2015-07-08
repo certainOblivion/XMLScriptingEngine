@@ -1,0 +1,15 @@
+<World name="Earth">
+    <Sector name="DC">
+        <Entity name="Gotham" className="Entity">
+            <ActionList name="FightCrime">
+				<Action name="SolomonGrundy" className="ReactionAttributed" subtype="Villain">
+				</Action>
+                <Action name="Find Joker" className="ActionEvent" subtype="Villain">
+                    <Integer name="TimeInMinutes">
+                        <value>20</value>
+                    </Integer>
+                </Action>
+            </ActionList>
+        </Entity>
+    </Sector>
+</World>

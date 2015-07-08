@@ -1,0 +1,49 @@
+﻿Build started 4/7/2014 4:05:47 PM.
+     1>Project "D:\Development\BitBucket\FieaGameEngine\external\Expat\source\expat_static.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D _WINDOWS /D COMPILED_FROM_DSP /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\\" /Fd"D:\Development\BitBucket\FieaGameEngine\external\Expat\source\bin\Debug\Expatd.pdb" /FR"D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\\" /Gd /TC /wd4100 /wd4127 /wd4244 /analyze- /errorReport:prompt xmlparse.c xmlrole.c xmltok.c
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Development\BitBucket\FieaGameEngine\external\Expat\source\bin\Debug\Expatd.lib" /NOLOGO D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\xmlparse.obj
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\xmlrole.obj
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\xmltok.obj
+         expat_static.vcxproj -> D:\Development\BitBucket\FieaGameEngine\external\Expat\source\bin\Debug\Expatd.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\Development\BitBucket\FieaGameEngine\external\Expat\source\bin\Debug\Expatd.bsc" D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\xmlparse.sbr D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\xmlrole.sbr D:\Development\BitBucket\FieaGameEngine\external\Expat\source\obj\Debug\xmltok.sbr
+       PostBuildEvent:
+         mkdir "..\include"
+         copy "D:\Development\BitBucket\FieaGameEngine\external\Expat\source\*.h" "..\include\"
+         copy "D:\Development\BitBucket\FieaGameEngine\external\Expat\source\*.inl" "..\include\"
+         
+         mkdir "..\lib"
+         copy "D:\Development\BitBucket\FieaGameEngine\external\Expat\source\bin\Debug\Expatd.lib" "..\lib\"
+         :VCEnd
+         A subdirectory or file ..\include already exists.
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\ascii.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\asciitab.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\expat.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\expat_external.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\iasciitab.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\internal.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\latin1tab.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\macconfig.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\nametab.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\utf8tab.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\winconfig.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\xmlrole.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\xmltok.h
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\xmltok_impl.h
+                14 file(s) copied.
+         D:\Development\BitBucket\FieaGameEngine\external\Expat\source\*.inl 
+         The system cannot find the file specified.
+                 0 file(s) copied.
+         A subdirectory or file ..\lib already exists.
+                 1 file(s) copied.
+     1>Done Building Project "D:\Development\BitBucket\FieaGameEngine\external\Expat\source\expat_static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62

@@ -1,0 +1,28 @@
+<Scope>
+	<Integer name="integers">
+		<value index="1">2</value>
+		<value index="2">3</value>
+		<value>1</value>
+	</Integer>
+	<Scope name="floatingPoint">
+		<Float name="floating">
+			<value index="1">2.2</value>
+			<value index="2">3.3</value>
+			<value>1.1</value>
+		</Float>
+		<Scope name="pointParent">
+			<Vector name="point">
+				<value index="1">5, 6, 7, 8</value>
+				<value>1, 2, 3, 4</value>
+			</Vector>
+		</Scope>
+		<Matrix name="transformationMatrix">
+			<value index="1">((1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1))</value>
+			<value>((2, 0, 0, 0), (0, 2, 0, 0), (0, 0, 2, 0), (0, 0, 0, 2))</value>
+		</Matrix>
+	</Scope>
+	<String name="names">
+		<value index="1">SomeName</value>
+		<value>Name</value>
+	</String>
+</Scope>

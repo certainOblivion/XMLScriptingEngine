@@ -1,0 +1,17 @@
+<World name="Earth">
+    <Sector name="DC">
+        <Entity name="Gotham" className="Entity">
+            <ActionList name="FightCrime">
+				<Action name="SolomonGrundy" className="ActionFoo">
+				</Action>
+                <Action name="Find Joker" className="ActionFoo">
+                    <Integer name="TimeInMinutes">
+                        <value>20</value>
+                    </Integer>
+                </Action>
+				<ActionCreateAction name="Adding Joker" className="ActionFoo" instanceName="Joker" />
+				<ActionDestroyAction name="Removing Grundy" instanceName="SolomonGrundy" />
+            </ActionList>
+        </Entity>
+    </Sector>
+</World>

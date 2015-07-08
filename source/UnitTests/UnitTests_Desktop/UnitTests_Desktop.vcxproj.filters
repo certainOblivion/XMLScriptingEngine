@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59491074-202a-4060-8f5e-2c429e30c548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{33768e4b-b801-4109-b4f8-0b65551705f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="TestAttributed.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestDatum.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestEntity.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestFactory.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestFoo.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestHashmap.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestScope.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestScopeXmlParser.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestSList.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestStack.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestVector.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestXmlMasterParser.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestAction.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestEvent.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestReaction.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestAsyncEvent.h">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerXmlHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerSharedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAttributed.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDatum.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEntity.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFactory.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFoo.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHashmap.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScope.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScopeXmlParser.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSList.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStack.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestVector.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestXmlMasterParser.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionFoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAction.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FooSubscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEvent.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FooMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestReaction.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAsyncEvent.cpp">
+      <Filter>Generated Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FooAsyncSubscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main.h">
+      <Filter>Test Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerXmlHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerSharedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FooSubscriber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Test Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FooMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FooAsyncSubscriber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UnitTests_Desktop.rc" />
+  </ItemGroup>
+</Project>
