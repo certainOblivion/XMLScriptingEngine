@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library", "..\source\Library\Library.vcxproj", "{08F37650-209F-424F-A8EB-B8CC8506F48F}"
 EndProject
@@ -12,25 +12,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests_Desktop", "..\source\UnitTests\UnitTests_Desktop\UnitTests_Desktop.vcxproj", "{A79F204C-382C-4FA8-A769-2D0D11CFE34E}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 5
-		SccProjectName0 = Perforce\u0020Project
-		SccLocalPath0 = ..
-		SccProvider0 = MSSCCI:Perforce\u0020SCM
-		SccProjectFilePathRelativizedFromConnection0 = build\\
-		SccProjectUniqueName1 = ..\\source\\Library\\Library.vcxproj
-		SccLocalPath1 = ..
-		SccProjectFilePathRelativizedFromConnection1 = source\\Library\\
-		SccProjectUniqueName2 = ..\\source\\Platforms\\DirectX\\DirectX.vcxproj
-		SccLocalPath2 = ..
-		SccProjectFilePathRelativizedFromConnection2 = source\\Platforms\\DirectX\\
-		SccProjectUniqueName3 = ..\\source\\Platforms\\OpenGL\\OpenGL.vcxproj
-		SccLocalPath3 = ..
-		SccProjectFilePathRelativizedFromConnection3 = source\\Platforms\\OpenGL\\
-		SccProjectUniqueName4 = ..\\source\\UnitTests\\UnitTests_Desktop\\UnitTests_Desktop.vcxproj
-		SccLocalPath4 = ..
-		SccProjectFilePathRelativizedFromConnection4 = source\\UnitTests\\UnitTests_Desktop\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
